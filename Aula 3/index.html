@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 3 de Javascript</title>
+    <style>
+        p{
+            color: red;
+        }
+    </style>
 </head>
 <body>
     <p>
@@ -11,16 +16,34 @@
     </p>
 
 <script>
-        //Convertendo de String para Number
+/*
+            //Convertendo de String para Number
     var n1 = Number(window.prompt("Digite um número: "))
     var n2 = Number(window.prompt("Digite outro número: "))
     var soma = n1 + n2;
-    window.alert("A soma é " + soma)
+    window.alert(`A soma entre ${n1} e ${n2} dá o valor de ${soma}.`)
          //Convertendo de Number para String
     var n3 = String(Number(window.prompt("Digite um novo numero: ")))
     var n4 = String(Number(window.prompt("Só mais um número: ")))
     var concatenacao = n3 + n4;
     window.alert("A concatenação é " + concatenacao + ".")
+
+*/
+    var nome = window.prompt('Qual é seu nome? ')
+    document.writeln(`<p>Seu nome é ${nome}, ele tem ${nome.length} letras.</p>`)
+    document.writeln(`<p>Seu nome em maiúsculas fica assim: ${nome.toUpperCase()}<\p>`)
+    document.writeln(`<p>Seu nome em minúsculas fica assim: ${nome.toLowerCase()}<\p>`)
+
+var n5 = 1545.5
+
+        document.writeln(`<p>O valor na variavel N5 é ${n5.toFixed(2).replace('.', ',')}.</p>`)
+
+var salario = 1350
+
+        document.writeln(`<p>O seu salário é ${salario.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}.</p>`)
+        document.writeln(`<p>O seu salário é ${salario.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})}.</p>`)
+        document.writeln(`<p>O seu salário é ${salario.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})}.</p>`)
+        
 </script>    
 </body>
 </html>
