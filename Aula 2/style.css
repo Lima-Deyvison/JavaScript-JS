@@ -1,0 +1,14 @@
+body{
+    background-color: #702EE7;
+}
+h1{
+    font-size: 16pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*font-style: bold;*/ /*NÃO FUNCIONA PARA NEGRITO*/
+    color: #f1f1f1;
+}
+p{
+    font-size: 14pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f1f1f1;
+}
