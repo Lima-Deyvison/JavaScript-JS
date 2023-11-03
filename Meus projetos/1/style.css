@@ -1,5 +1,8 @@
+body{
+    background-color: #f1f1f1;
+}
 p{
     font-size: 12pt;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Courier, monospace;
     color: #1c1c1c;
 }
