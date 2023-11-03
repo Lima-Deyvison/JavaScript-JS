@@ -8,8 +8,8 @@ document.writeln(`<p>${nome}, seu nome contém ${nome.length} letras e sua idade
 document.writeln(`<p>Seu nome em maiúsculo é ${nome.toUpperCase()}.</p>`)
 document.writeln(`<p>Seu nome em minusculo é ${nome.toLowerCase()}.</p>`)
 
-document.writeln(`${nome}, seu salário é ${sal}.`)
-document.writeln(`O seu salário formatado corretamente é ${sal.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}.`)
+document.writeln(`<p>${nome}, seu salário é ${sal}.</p>`)
+document.writeln(`<p>O seu salário formatado corretamente é ${sal.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}.</p>`)
 
 document.writeln(`<p>O tipo da variável idade é ${typeof idade}.</p>`)
 document.writeln(`<p>O tipo da variável salário é ${typeof sal}.</p>`)
